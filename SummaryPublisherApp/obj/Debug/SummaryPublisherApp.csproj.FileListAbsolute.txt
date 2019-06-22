@@ -1,0 +1,11 @@
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\obj\Debug\SummaryPublisherApp.csprojAssemblyReference.cache
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\obj\Debug\SummaryPublisherApp.csproj.CoreCompileInputs.cache
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryPublisherApp.exe.config
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryPublisherApp.exe
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryPublisherApp.pdb
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryBookApp.exe
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryBookApp.pdb
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryBookApp.exe.config
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\obj\Debug\SummaryPublisherApp.csproj.CopyComplete
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\obj\Debug\SummaryPublisherApp.exe
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\obj\Debug\SummaryPublisherApp.pdb

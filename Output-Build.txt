@@ -1,0 +1,5 @@
+﻿1>------ Build started: Project: SummaryPublisherApp, Configuration: Debug Any CPU ------
+1>C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\Publisher.cs(27,21,27,34): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?'
+1>C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\Publisher.cs(31,26,31,39): warning CS0472: The result of the expression is always 'false' since a value of type 'int' is never equal to 'null' of type 'int?'
+1>  SummaryPublisherApp -> C:\Users\Vio\source\repos\SummaryBookApp\SummaryPublisherApp\bin\Debug\SummaryPublisherApp.exe
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========

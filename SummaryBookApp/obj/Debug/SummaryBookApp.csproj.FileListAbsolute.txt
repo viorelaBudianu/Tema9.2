@@ -1,0 +1,7 @@
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\bin\Debug\SummaryBookApp.exe.config
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\bin\Debug\SummaryBookApp.exe
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\bin\Debug\SummaryBookApp.pdb
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\obj\Debug\SummaryBookApp.csprojAssemblyReference.cache
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\obj\Debug\SummaryBookApp.csproj.CoreCompileInputs.cache
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\obj\Debug\SummaryBookApp.exe
+C:\Users\Vio\source\repos\SummaryBookApp\SummaryBookApp\obj\Debug\SummaryBookApp.pdb
