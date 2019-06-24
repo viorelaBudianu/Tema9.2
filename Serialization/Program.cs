@@ -17,6 +17,7 @@ namespace Serialization
     {
         static void Main(string[] args)
         {
+           
             List<Book> books = new List<Book>();
             Book b1 = new Book();
             Book b2 = new Book();
@@ -48,7 +49,64 @@ namespace Serialization
             books.Add(b3);
             books.Add(b4);
             var json = new JavaScriptSerializer();
-            var serializedResult = json.Serialize(RegisteredUsers);
+            var serializedResult = json.Serialize(books);
+            string JsonFile = @"C:\Users\vbudianu\Desktop\New folder\Book.json";
+            try
+            {
+
+                // Delete the file if it exists.
+                if (File.Exists(JsonFile))
+                {
+                    
+                    File.Delete(JsonFile);
+                }
+
+                // Create the file.
+                using (FileStream JSON = File.Create(JsonFile))
+                {
+                    Byte[] a = new UTF8Encoding(true).GetBytes(serializedResult);
+                   
+                    JSON.Write(a, 0, a.Length);
+
+                }
+            }
+            catch (Exception e)
+            {
+                Console.Write("Problem, problem " + e.Message);
+            }
+            //---------------XML Serialization ------------------- 
+            System.Xml.Serialization.XmlSerializer writer =  new System.Xml.Serialization.XmlSerializer(typeof(List<Book>));
+            string XMLFile = @"C:\Users\vbudianu\Desktop\New folder\Book.xml";
+            try
+            {
+
+                // Delete the file if it exists.
+                if (File.Exists(XMLFile))
+                {
+
+                    File.Delete(XMLFile);
+                }
+
+                // Create the file.
+                using (FileStream XML = File.Create(XMLFile))
+                {
+                    //Byte[] a = new UTF8Encoding(true).GetBytes(serializedResult);
+
+                    //XML.Write(a, 0, a.Length);
+                    writer.Serialize(XML, books);
+
+                }
+            }
+            catch (Exception e)
+            {
+                Console.Write("Problem, problem " + e.Message);
+            }
+            //OR
+            //var path = Environment.GetFolderPath(@"C:\Users\vbudianu\Desktop\New folder\SerializationXML.xml");
+            //System.IO.FileStream file = System.IO.File.Create(path);
+
+            //writer.Serialize(file, books);
+            //file.Close();
         }
     }
 }
